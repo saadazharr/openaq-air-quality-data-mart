@@ -1,0 +1,1988 @@
+[2024-10-15T00:00:06.953+0000] {processor.py:186} INFO - Started process (PID=32) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:00:06.954+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:00:06.956+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:00:06.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:00:06.974+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:00:06.970+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:00:06.977+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:00:07.053+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.106 seconds
+[2024-10-15T00:00:37.207+0000] {processor.py:186} INFO - Started process (PID=41) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:00:37.208+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:00:37.210+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:00:37.210+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:00:37.227+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:00:37.224+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:00:37.228+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:00:37.263+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.060 seconds
+[2024-10-15T00:01:07.886+0000] {processor.py:186} INFO - Started process (PID=42) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:01:07.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:01:07.889+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:01:07.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:01:07.911+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:01:07.908+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:01:07.913+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:01:07.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.083 seconds
+[2024-10-15T00:01:38.553+0000] {processor.py:186} INFO - Started process (PID=43) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:01:38.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:01:38.563+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:01:38.562+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:01:38.596+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:01:38.587+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:01:38.599+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:01:38.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.122 seconds
+[2024-10-15T00:02:09.331+0000] {processor.py:186} INFO - Started process (PID=44) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:02:09.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:02:09.340+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:02:09.340+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:02:09.361+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:02:09.354+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:02:09.363+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:02:09.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.079 seconds
+[2024-10-15T00:02:39.860+0000] {processor.py:186} INFO - Started process (PID=45) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:02:39.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:02:39.868+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:02:39.866+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:02:39.901+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:02:39.897+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:02:39.902+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:02:39.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.087 seconds
+[2024-10-15T00:03:10.576+0000] {processor.py:186} INFO - Started process (PID=46) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:03:10.577+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:03:10.579+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:03:10.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:03:10.599+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:03:10.596+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:03:10.600+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:03:10.641+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.070 seconds
+[2024-10-15T00:03:41.094+0000] {processor.py:186} INFO - Started process (PID=47) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:03:41.095+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:03:41.099+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:03:41.098+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:03:41.121+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:03:41.117+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:03:41.124+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:03:41.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.086 seconds
+[2024-10-15T00:04:11.541+0000] {processor.py:186} INFO - Started process (PID=48) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:04:11.542+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:04:11.544+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:04:11.544+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:04:11.557+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:04:11.554+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:04:11.558+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:04:11.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.052 seconds
+[2024-10-15T00:05:24.392+0000] {processor.py:186} INFO - Started process (PID=34) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:05:24.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:05:24.395+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:05:24.395+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:05:24.410+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:05:24.407+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:05:24.412+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:05:24.475+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.088 seconds
+[2024-10-15T00:05:55.347+0000] {processor.py:186} INFO - Started process (PID=37) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:05:55.348+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:05:55.349+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:05:55.349+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:05:55.370+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:05:55.367+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:05:55.371+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:05:55.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.062 seconds
+[2024-10-15T00:06:25.989+0000] {processor.py:186} INFO - Started process (PID=38) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:06:25.990+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:06:25.992+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:06:25.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:06:26.013+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:06:26.010+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:06:26.014+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:06:26.047+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.062 seconds
+[2024-10-15T00:06:57.018+0000] {processor.py:186} INFO - Started process (PID=39) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:06:57.019+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:06:57.022+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:06:57.022+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:06:57.045+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:06:57.042+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:06:57.046+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:06:57.090+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.076 seconds
+[2024-10-15T00:07:27.250+0000] {processor.py:186} INFO - Started process (PID=40) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:07:27.251+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:07:27.253+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:07:27.253+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:07:27.266+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:07:27.263+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:07:27.268+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:07:27.320+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.074 seconds
+[2024-10-15T00:07:57.625+0000] {processor.py:186} INFO - Started process (PID=41) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:07:57.626+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:07:57.630+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:07:57.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:07:57.653+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:07:57.649+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:07:57.654+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:07:57.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.078 seconds
+[2024-10-15T00:08:27.948+0000] {processor.py:186} INFO - Started process (PID=42) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:08:27.948+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:08:27.951+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:08:27.950+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:08:27.966+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:08:27.963+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:08:27.967+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:08:28.006+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.063 seconds
+[2024-10-15T00:09:03.900+0000] {processor.py:186} INFO - Started process (PID=33) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:09:03.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:09:03.905+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:09:03.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:09:03.921+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:09:03.917+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:09:03.923+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:09:03.981+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.087 seconds
+[2024-10-15T00:09:34.180+0000] {processor.py:186} INFO - Started process (PID=36) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:09:34.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:09:34.183+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:09:34.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:09:34.212+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:09:34.205+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:09:34.215+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:09:34.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.094 seconds
+[2024-10-15T00:10:04.855+0000] {processor.py:186} INFO - Started process (PID=37) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:10:04.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:10:04.859+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:10:04.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:10:04.877+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:10:04.874+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:10:04.879+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:10:04.923+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.072 seconds
+[2024-10-15T00:10:35.417+0000] {processor.py:186} INFO - Started process (PID=38) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:10:35.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:10:35.420+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:10:35.420+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:10:35.433+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:10:35.430+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:10:35.435+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:10:35.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.071 seconds
+[2024-10-15T00:11:06.092+0000] {processor.py:186} INFO - Started process (PID=39) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:11:06.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:11:06.096+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:11:06.096+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:11:06.121+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:11:06.117+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:11:06.123+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:11:06.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.097 seconds
+[2024-10-15T00:11:37.570+0000] {processor.py:186} INFO - Started process (PID=40) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:11:37.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:11:37.590+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:11:37.590+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:11:37.629+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:11:37.624+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:11:37.642+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:11:37.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.179 seconds
+[2024-10-15T00:12:08.273+0000] {processor.py:186} INFO - Started process (PID=41) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:12:08.274+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:12:08.285+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:12:08.276+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:12:08.301+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:12:08.295+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:12:08.302+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:12:08.355+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.086 seconds
+[2024-10-15T00:12:38.440+0000] {processor.py:186} INFO - Started process (PID=42) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:12:38.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:12:38.443+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:12:38.442+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:12:38.460+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:12:38.457+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:12:38.462+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:12:38.502+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.066 seconds
+[2024-10-15T00:13:10.602+0000] {processor.py:186} INFO - Started process (PID=43) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:13:10.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:13:10.605+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:13:10.605+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:13:10.627+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:13:10.615+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:13:10.628+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:13:10.679+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.081 seconds
+[2024-10-15T00:13:40.869+0000] {processor.py:186} INFO - Started process (PID=44) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:13:40.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:13:40.873+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:13:40.873+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:13:40.892+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:13:40.890+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:13:40.894+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:13:40.930+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.066 seconds
+[2024-10-15T00:14:11.464+0000] {processor.py:186} INFO - Started process (PID=45) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:14:11.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:14:11.467+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:14:11.467+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:14:11.484+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:14:11.481+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:14:11.485+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:14:11.525+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.065 seconds
+[2024-10-15T00:14:42.180+0000] {processor.py:186} INFO - Started process (PID=46) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:14:42.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:14:42.185+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:14:42.184+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:14:42.216+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:14:42.209+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:14:42.218+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:14:42.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.096 seconds
+[2024-10-15T00:15:12.867+0000] {processor.py:186} INFO - Started process (PID=47) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:15:12.868+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:15:12.870+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:15:12.870+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:15:12.902+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:15:12.897+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:15:12.904+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:15:12.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.086 seconds
+[2024-10-15T00:15:43.413+0000] {processor.py:186} INFO - Started process (PID=48) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:15:43.415+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:15:43.419+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:15:43.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:15:43.448+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:15:43.440+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:15:43.450+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:15:43.506+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.106 seconds
+[2024-10-15T00:16:14.079+0000] {processor.py:186} INFO - Started process (PID=49) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:16:14.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:16:14.086+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:16:14.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:16:14.121+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:16:14.115+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:16:14.123+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:16:14.186+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.117 seconds
+[2024-10-15T00:16:44.735+0000] {processor.py:186} INFO - Started process (PID=50) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:16:44.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:16:44.738+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:16:44.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:16:44.758+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:16:44.755+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:16:44.763+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:16:44.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.090 seconds
+[2024-10-15T00:17:15.630+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:17:15.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:17:15.633+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:17:15.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:17:15.655+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:17:15.652+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:17:15.656+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:17:15.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.080 seconds
+[2024-10-15T00:17:45.955+0000] {processor.py:186} INFO - Started process (PID=52) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:17:45.957+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:17:45.960+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:17:45.960+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:17:45.994+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:17:45.985+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:17:45.996+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:17:46.044+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.093 seconds
+[2024-10-15T00:18:16.692+0000] {processor.py:186} INFO - Started process (PID=53) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:18:16.694+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:18:16.696+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:18:16.696+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:18:16.712+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:18:16.706+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:18:16.714+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:18:16.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.068 seconds
+[2024-10-15T00:18:46.891+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:18:46.894+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:18:46.897+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:18:46.896+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:18:46.915+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:18:46.911+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:18:46.916+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:18:46.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.084 seconds
+[2024-10-15T00:19:17.808+0000] {processor.py:186} INFO - Started process (PID=55) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:19:17.811+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:19:17.815+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:19:17.815+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:19:17.829+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:19:17.827+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:19:17.831+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:19:17.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.081 seconds
+[2024-10-15T00:19:48.317+0000] {processor.py:186} INFO - Started process (PID=56) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:19:48.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:19:48.322+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:19:48.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:19:48.348+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:19:48.342+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:19:48.350+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:19:48.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.101 seconds
+[2024-10-15T00:20:19.213+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:20:19.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:20:19.222+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:20:19.221+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:20:19.265+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:20:19.254+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:20:19.268+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:20:19.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.208 seconds
+[2024-10-15T00:20:49.647+0000] {processor.py:186} INFO - Started process (PID=58) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:20:49.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:20:49.653+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:20:49.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:20:49.685+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:20:49.679+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:20:49.687+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:20:49.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.216 seconds
+[2024-10-15T00:21:20.299+0000] {processor.py:186} INFO - Started process (PID=59) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:21:20.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:21:20.311+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:21:20.310+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:21:20.350+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:21:20.342+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:21:20.353+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:21:20.446+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.172 seconds
+[2024-10-15T00:21:52.340+0000] {processor.py:186} INFO - Started process (PID=60) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:21:52.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:21:52.349+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:21:52.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:21:52.378+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:21:52.368+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:21:52.379+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:21:52.587+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.259 seconds
+[2024-10-15T00:22:23.360+0000] {processor.py:186} INFO - Started process (PID=61) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:22:23.362+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:22:23.368+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:22:23.367+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:22:23.393+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:22:23.383+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:22:23.395+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:22:23.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.089 seconds
+[2024-10-15T00:22:54.093+0000] {processor.py:186} INFO - Started process (PID=62) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:22:54.098+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:22:54.118+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:22:54.118+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:22:54.143+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:22:54.135+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:22:54.145+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:22:54.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.121 seconds
+[2024-10-15T00:23:24.666+0000] {processor.py:186} INFO - Started process (PID=63) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:23:24.672+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:23:24.675+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:23:24.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:23:24.695+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:23:24.691+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:23:24.697+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:23:24.764+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.103 seconds
+[2024-10-15T00:23:54.945+0000] {processor.py:186} INFO - Started process (PID=64) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:23:54.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:23:54.949+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:23:54.949+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:23:54.990+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:23:54.983+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:23:54.996+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:23:55.053+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.118 seconds
+[2024-10-15T00:24:25.634+0000] {processor.py:186} INFO - Started process (PID=65) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:24:25.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:24:25.642+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:24:25.642+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:24:25.679+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:24:25.670+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:24:25.682+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:24:25.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.134 seconds
+[2024-10-15T00:24:56.431+0000] {processor.py:186} INFO - Started process (PID=66) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:24:56.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:24:56.435+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:24:56.435+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:24:56.460+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:24:56.453+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:24:56.462+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:24:56.623+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.197 seconds
+[2024-10-15T00:25:27.519+0000] {processor.py:186} INFO - Started process (PID=67) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:25:27.520+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:25:27.522+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:25:27.522+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:25:27.538+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:25:27.535+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:25:27.539+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:25:27.577+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.062 seconds
+[2024-10-15T00:25:57.753+0000] {processor.py:186} INFO - Started process (PID=68) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:25:57.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:25:57.757+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:25:57.757+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:25:57.775+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:25:57.771+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:25:57.777+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:25:57.838+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.095 seconds
+[2024-10-15T00:26:28.638+0000] {processor.py:186} INFO - Started process (PID=69) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:26:28.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:26:28.642+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:26:28.642+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:26:28.671+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:26:28.664+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:26:28.673+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:26:28.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.115 seconds
+[2024-10-15T00:26:59.524+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:26:59.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:26:59.530+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:26:59.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:26:59.544+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:26:59.541+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:26:59.546+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:26:59.582+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.063 seconds
+[2024-10-15T00:27:29.777+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:27:29.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:27:29.785+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:27:29.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:27:29.830+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:27:29.814+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:27:29.834+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:27:29.942+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.177 seconds
+[2024-10-15T00:28:00.092+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:28:00.094+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:28:00.101+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:28:00.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:28:00.144+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:28:00.135+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:28:00.148+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:28:00.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.141 seconds
+[2024-10-15T00:28:30.942+0000] {processor.py:186} INFO - Started process (PID=73) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:28:30.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:28:30.950+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:28:30.950+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:28:30.978+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:28:30.970+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:28:30.980+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:28:31.080+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.152 seconds
+[2024-10-15T00:29:01.336+0000] {processor.py:186} INFO - Started process (PID=74) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:29:01.338+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:29:01.341+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:29:01.341+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:29:01.370+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:29:01.363+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:29:01.371+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:29:01.413+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.081 seconds
+[2024-10-15T00:29:32.259+0000] {processor.py:186} INFO - Started process (PID=75) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:29:32.261+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:29:32.264+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:29:32.264+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:29:32.287+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:29:32.284+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:29:32.289+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:29:32.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.086 seconds
+[2024-10-15T00:30:02.726+0000] {processor.py:186} INFO - Started process (PID=76) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:30:02.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:30:02.730+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:30:02.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:30:02.748+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:30:02.742+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:30:02.749+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:30:02.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.063 seconds
+[2024-10-15T00:30:32.855+0000] {processor.py:186} INFO - Started process (PID=77) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:30:32.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:30:32.868+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:30:32.866+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:30:32.891+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:30:32.887+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:30:32.894+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:30:32.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.121 seconds
+[2024-10-15T00:31:03.962+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:31:03.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:31:03.970+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:31:03.970+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:31:04.004+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:31:03.998+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:31:04.005+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:31:04.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.116 seconds
+[2024-10-15T00:31:34.701+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:31:34.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:31:34.715+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:31:34.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:31:34.737+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:31:34.733+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:31:34.740+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:31:34.839+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.151 seconds
+[2024-10-15T00:32:05.331+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:32:05.333+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:32:05.336+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:32:05.335+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:32:05.372+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:32:05.361+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:32:05.376+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:32:05.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.137 seconds
+[2024-10-15T00:32:35.961+0000] {processor.py:186} INFO - Started process (PID=81) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:32:35.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:32:35.967+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:32:35.967+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:32:35.984+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:32:35.979+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:32:35.985+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:32:36.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.076 seconds
+[2024-10-15T00:33:06.323+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:33:06.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:33:06.341+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:33:06.340+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:33:06.375+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:33:06.368+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:33:06.379+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:33:06.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.177 seconds
+[2024-10-15T00:33:36.718+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:33:36.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:33:36.725+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:33:36.725+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:33:36.756+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:33:36.749+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:33:36.760+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:33:36.839+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.134 seconds
+[2024-10-15T00:34:07.537+0000] {processor.py:186} INFO - Started process (PID=84) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:34:07.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:34:07.546+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:34:07.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:34:07.584+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:34:07.572+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:34:07.588+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:34:07.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.144 seconds
+[2024-10-15T00:34:38.305+0000] {processor.py:186} INFO - Started process (PID=85) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:34:38.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:34:38.322+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:34:38.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:34:38.355+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:34:38.347+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:34:38.359+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:34:38.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.173 seconds
+[2024-10-15T00:35:09.090+0000] {processor.py:186} INFO - Started process (PID=86) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:35:09.092+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:35:09.099+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:35:09.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:35:09.138+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:35:09.128+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:35:09.145+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:35:09.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.153 seconds
+[2024-10-15T00:35:39.890+0000] {processor.py:186} INFO - Started process (PID=87) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:35:39.895+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:35:39.897+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:35:39.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:35:39.913+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:35:39.909+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:35:39.914+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:35:39.960+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.074 seconds
+[2024-10-15T00:36:10.592+0000] {processor.py:186} INFO - Started process (PID=88) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:36:10.594+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:36:10.596+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:36:10.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:36:10.616+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:36:10.612+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:36:10.621+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:36:10.687+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.102 seconds
+[2024-10-15T00:36:41.534+0000] {processor.py:186} INFO - Started process (PID=89) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:36:41.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:36:41.538+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:36:41.537+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:36:41.559+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:36:41.553+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:36:41.561+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:36:41.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.148 seconds
+[2024-10-15T00:37:12.246+0000] {processor.py:186} INFO - Started process (PID=90) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:37:12.247+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:37:12.249+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:37:12.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:37:12.280+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:37:12.277+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:37:12.281+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:37:12.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.083 seconds
+[2024-10-15T00:37:42.853+0000] {processor.py:186} INFO - Started process (PID=91) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:37:42.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:37:42.869+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:37:42.869+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:37:42.890+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:37:42.884+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:37:42.892+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:37:42.941+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.093 seconds
+[2024-10-15T00:38:13.608+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:38:13.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:38:13.611+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:38:13.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:38:13.625+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:38:13.621+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:38:13.626+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:38:13.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.074 seconds
+[2024-10-15T00:38:44.012+0000] {processor.py:186} INFO - Started process (PID=93) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:38:44.013+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:38:44.015+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:38:44.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:38:44.037+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:38:44.032+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:38:44.039+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:38:44.090+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.082 seconds
+[2024-10-15T00:39:14.313+0000] {processor.py:186} INFO - Started process (PID=94) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:39:14.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:39:14.317+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:39:14.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:39:14.334+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:39:14.330+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:39:14.336+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:39:14.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.078 seconds
+[2024-10-15T00:39:45.168+0000] {processor.py:186} INFO - Started process (PID=95) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:39:45.172+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:39:45.178+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:39:45.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:39:45.210+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:39:45.202+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:39:45.214+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:39:45.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.143 seconds
+[2024-10-15T00:40:15.678+0000] {processor.py:186} INFO - Started process (PID=96) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:40:15.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:40:15.685+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:40:15.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:40:15.714+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:40:15.705+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:40:15.717+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:40:15.793+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.128 seconds
+[2024-10-15T00:40:46.251+0000] {processor.py:186} INFO - Started process (PID=97) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:40:46.253+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:40:46.258+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:40:46.257+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:40:46.296+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:40:46.287+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:40:46.299+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:40:46.363+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.123 seconds
+[2024-10-15T00:41:16.827+0000] {processor.py:186} INFO - Started process (PID=98) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:41:16.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:41:16.835+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:41:16.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:41:16.879+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:41:16.872+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:41:16.882+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:41:16.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.174 seconds
+[2024-10-15T00:41:47.612+0000] {processor.py:186} INFO - Started process (PID=99) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:41:47.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:41:47.616+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:41:47.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:41:47.642+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:41:47.636+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:41:47.643+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:41:47.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.107 seconds
+[2024-10-15T00:42:18.244+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:42:18.247+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:42:18.253+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:42:18.252+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:42:18.293+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:42:18.282+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:42:18.296+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:42:18.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.171 seconds
+[2024-10-15T00:42:48.867+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:42:48.868+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:42:48.870+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:42:48.870+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:42:48.887+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:42:48.883+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:42:48.888+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:42:48.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.075 seconds
+[2024-10-15T00:43:19.260+0000] {processor.py:186} INFO - Started process (PID=102) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:43:19.262+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:43:19.269+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:43:19.267+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:43:19.311+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:43:19.300+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:43:19.321+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:43:19.428+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.181 seconds
+[2024-10-15T00:43:49.861+0000] {processor.py:186} INFO - Started process (PID=103) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:43:49.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:43:49.874+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:43:49.874+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:43:49.910+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:43:49.905+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:43:49.911+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:43:49.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.115 seconds
+[2024-10-15T00:44:20.254+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:44:20.255+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:44:20.266+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:44:20.266+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:44:20.294+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:44:20.291+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:44:20.295+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:44:20.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.094 seconds
+[2024-10-15T00:44:50.637+0000] {processor.py:186} INFO - Started process (PID=105) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:44:50.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:44:50.645+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:44:50.644+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:44:50.697+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:44:50.682+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:44:50.712+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:44:50.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.169 seconds
+[2024-10-15T00:45:21.239+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:45:21.241+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:45:21.244+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:45:21.243+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:45:21.280+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:45:21.271+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:45:21.283+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:45:21.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.121 seconds
+[2024-10-15T00:45:51.628+0000] {processor.py:186} INFO - Started process (PID=107) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:45:51.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:45:51.631+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:45:51.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:45:51.647+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:45:51.643+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:45:51.649+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:45:51.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.068 seconds
+[2024-10-15T00:46:21.765+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:46:21.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:46:21.768+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:46:21.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:46:21.783+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:46:21.780+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:46:21.784+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:46:21.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.056 seconds
+[2024-10-15T00:46:52.042+0000] {processor.py:186} INFO - Started process (PID=109) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:46:52.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:46:52.044+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:46:52.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:46:52.058+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:46:52.055+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:46:52.060+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:46:52.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.053 seconds
+[2024-10-15T00:47:22.263+0000] {processor.py:186} INFO - Started process (PID=110) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:47:22.264+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:47:22.267+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:47:22.266+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:47:22.285+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:47:22.282+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:47:22.286+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:47:22.328+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.070 seconds
+[2024-10-15T00:47:52.560+0000] {processor.py:186} INFO - Started process (PID=111) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:47:52.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:47:52.567+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:47:52.567+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:47:52.588+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:47:52.583+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:47:52.590+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:47:52.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.076 seconds
+[2024-10-15T00:48:22.704+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:48:22.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:48:22.707+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:48:22.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:48:22.724+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:48:22.721+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:48:22.726+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:48:22.782+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.088 seconds
+[2024-10-15T00:48:53.090+0000] {processor.py:186} INFO - Started process (PID=113) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:48:53.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:48:53.093+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:48:53.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:48:53.112+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:48:53.107+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:48:53.114+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:48:53.153+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.067 seconds
+[2024-10-15T00:49:23.399+0000] {processor.py:186} INFO - Started process (PID=114) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:49:23.400+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:49:23.402+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:49:23.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:49:23.420+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:49:23.417+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:49:23.422+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:49:23.471+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.080 seconds
+[2024-10-15T00:49:53.673+0000] {processor.py:186} INFO - Started process (PID=115) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:49:53.674+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:49:53.677+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:49:53.676+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:49:53.692+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:49:53.690+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:49:53.695+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:49:53.745+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.076 seconds
+[2024-10-15T00:50:23.877+0000] {processor.py:186} INFO - Started process (PID=116) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:50:23.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:50:23.880+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:50:23.879+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:50:23.894+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:50:23.891+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:50:23.896+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:50:23.930+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.057 seconds
+[2024-10-15T00:50:54.152+0000] {processor.py:186} INFO - Started process (PID=117) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:50:54.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:50:54.154+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:50:54.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:50:54.173+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:50:54.168+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:50:54.174+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:50:54.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.069 seconds
+[2024-10-15T00:51:24.387+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:51:24.388+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:51:24.391+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:51:24.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:51:24.406+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:51:24.403+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:51:24.408+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:51:24.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.075 seconds
+[2024-10-15T00:51:54.680+0000] {processor.py:186} INFO - Started process (PID=119) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:51:54.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:51:54.685+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:51:54.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:51:54.711+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:51:54.706+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:51:54.713+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:51:54.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.148 seconds
+[2024-10-15T00:52:25.226+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:52:25.227+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:52:25.229+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:52:25.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:52:25.250+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:52:25.247+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:52:25.252+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:52:25.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.067 seconds
+[2024-10-15T00:52:55.478+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:52:55.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:52:55.481+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:52:55.481+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:52:55.494+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:52:55.491+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:52:55.495+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:52:55.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.055 seconds
+[2024-10-15T00:53:25.781+0000] {processor.py:186} INFO - Started process (PID=122) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:53:25.782+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:53:25.785+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:53:25.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:53:25.801+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:53:25.799+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:53:25.802+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:53:25.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.067 seconds
+[2024-10-15T00:53:56.050+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:53:56.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:53:56.053+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:53:56.053+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:53:56.069+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:53:56.066+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:53:56.070+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:53:56.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.061 seconds
+[2024-10-15T00:54:26.404+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:54:26.406+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:54:26.408+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:54:26.408+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:54:26.425+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:54:26.420+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:54:26.426+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:54:26.470+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.070 seconds
+[2024-10-15T00:54:56.653+0000] {processor.py:186} INFO - Started process (PID=125) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:54:56.654+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:54:56.656+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:54:56.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:54:56.675+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:54:56.672+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:54:56.676+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:54:56.711+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.063 seconds
+[2024-10-15T00:55:26.930+0000] {processor.py:186} INFO - Started process (PID=126) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:55:26.930+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:55:26.932+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:55:26.932+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:55:26.950+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:55:26.947+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:55:26.952+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:55:26.985+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.061 seconds
+[2024-10-15T00:55:57.230+0000] {processor.py:186} INFO - Started process (PID=127) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:55:57.231+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:55:57.233+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:55:57.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:55:57.250+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:55:57.247+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:55:57.251+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:55:57.287+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.061 seconds
+[2024-10-15T00:56:27.522+0000] {processor.py:186} INFO - Started process (PID=128) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:56:27.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:56:27.525+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:56:27.524+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:56:27.537+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:56:27.535+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:56:27.538+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:56:27.577+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.060 seconds
+[2024-10-15T00:56:57.806+0000] {processor.py:186} INFO - Started process (PID=129) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:56:57.809+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:56:57.811+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:56:57.811+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:56:57.826+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:56:57.823+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:56:57.827+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:56:57.871+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.069 seconds
+[2024-10-15T00:57:28.007+0000] {processor.py:186} INFO - Started process (PID=130) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:57:28.007+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:57:28.009+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:57:28.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:57:28.030+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:57:28.027+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:57:28.031+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:57:28.116+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.119 seconds
+[2024-10-15T00:57:58.520+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:57:58.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:57:58.551+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:57:58.550+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:57:58.623+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:57:58.620+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:57:58.625+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:57:58.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.169 seconds
+[2024-10-15T00:58:28.977+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:58:28.979+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:58:28.981+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:58:28.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:58:29.003+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:58:28.998+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:58:29.005+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:58:29.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.086 seconds
+[2024-10-15T00:58:59.521+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:58:59.521+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:58:59.523+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:58:59.523+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:58:59.538+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:58:59.535+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:58:59.539+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:58:59.578+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.062 seconds
+[2024-10-15T00:59:29.800+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:59:29.801+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:59:29.802+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:59:29.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:59:29.818+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:59:29.815+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T00:59:29.819+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:59:29.852+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.057 seconds
+[2024-10-15T00:59:59.991+0000] {processor.py:186} INFO - Started process (PID=135) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T00:59:59.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T00:59:59.994+0000] {logging_mixin.py:190} INFO - [2024-10-15T00:59:59.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:00:00.025+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:00:00.022+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:00:00.026+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:00:00.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.081 seconds
+[2024-10-15T01:00:30.272+0000] {processor.py:186} INFO - Started process (PID=136) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:00:30.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:00:30.275+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:00:30.275+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:00:30.296+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:00:30.292+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:00:30.299+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:00:30.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.076 seconds
+[2024-10-15T01:01:00.578+0000] {processor.py:186} INFO - Started process (PID=137) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:01:00.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:01:00.581+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:01:00.580+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:01:00.603+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:01:00.597+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:01:00.605+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:01:00.656+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.082 seconds
+[2024-10-15T01:01:30.886+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:01:30.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:01:30.889+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:01:30.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:01:30.902+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:01:30.899+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:01:30.903+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:01:30.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.054 seconds
+[2024-10-15T01:02:01.197+0000] {processor.py:186} INFO - Started process (PID=139) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:02:01.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:02:01.202+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:02:01.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:02:01.225+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:02:01.220+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:02:01.226+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:02:01.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.064 seconds
+[2024-10-15T01:02:31.457+0000] {processor.py:186} INFO - Started process (PID=140) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:02:31.458+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:02:31.460+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:02:31.460+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:02:31.476+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:02:31.473+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:02:31.477+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:02:31.515+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.062 seconds
+[2024-10-15T01:03:01.751+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:03:01.752+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:03:01.754+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:03:01.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:03:01.774+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:03:01.771+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:03:01.775+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:03:01.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.071 seconds
+[2024-10-15T01:03:32.052+0000] {processor.py:186} INFO - Started process (PID=142) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:03:32.053+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:03:32.055+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:03:32.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:03:32.068+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:03:32.065+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:03:32.069+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:03:32.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.055 seconds
+[2024-10-15T01:04:02.327+0000] {processor.py:186} INFO - Started process (PID=143) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:04:02.328+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:04:02.330+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:04:02.330+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:04:02.344+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:04:02.342+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:04:02.346+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:04:02.381+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.058 seconds
+[2024-10-15T01:04:32.548+0000] {processor.py:186} INFO - Started process (PID=144) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:04:32.549+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:04:32.553+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:04:32.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:04:32.574+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:04:32.569+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:04:32.575+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:04:32.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.089 seconds
+[2024-10-15T01:05:02.860+0000] {processor.py:186} INFO - Started process (PID=145) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:05:02.861+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:05:02.863+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:05:02.863+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:05:02.881+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:05:02.877+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:05:02.882+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:05:02.915+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.059 seconds
+[2024-10-15T01:05:33.129+0000] {processor.py:186} INFO - Started process (PID=146) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:05:33.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:05:33.132+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:05:33.132+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:05:33.149+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:05:33.146+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:05:33.151+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:05:33.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.058 seconds
+[2024-10-15T01:06:03.456+0000] {processor.py:186} INFO - Started process (PID=147) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:06:03.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:06:03.459+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:06:03.459+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:06:03.476+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:06:03.473+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:06:03.477+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:06:03.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.066 seconds
+[2024-10-15T01:06:33.737+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:06:33.738+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:06:33.740+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:06:33.740+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:06:33.757+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:06:33.754+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:06:33.759+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:06:33.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.064 seconds
+[2024-10-15T01:07:03.992+0000] {processor.py:186} INFO - Started process (PID=149) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:07:03.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:07:03.996+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:07:03.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:07:04.007+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:07:04.004+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:07:04.008+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:07:04.043+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.055 seconds
+[2024-10-15T01:07:34.272+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:07:34.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:07:34.275+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:07:34.274+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:07:34.290+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:07:34.287+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:07:34.291+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:07:34.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.056 seconds
+[2024-10-15T01:08:04.545+0000] {processor.py:186} INFO - Started process (PID=151) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:08:04.546+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:08:04.548+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:08:04.547+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:08:04.564+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:08:04.561+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:08:04.565+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:08:04.598+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.058 seconds
+[2024-10-15T01:08:34.885+0000] {processor.py:186} INFO - Started process (PID=152) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:08:34.885+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:08:34.888+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:08:34.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:08:34.903+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:08:34.900+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:08:34.904+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:08:34.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.055 seconds
+[2024-10-15T01:09:05.217+0000] {processor.py:186} INFO - Started process (PID=153) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:09:05.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:09:05.220+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:09:05.220+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:09:05.240+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:09:05.234+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:09:05.242+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:09:05.299+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.092 seconds
+[2024-10-15T01:09:35.551+0000] {processor.py:186} INFO - Started process (PID=154) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:09:35.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:09:35.554+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:09:35.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:09:35.571+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:09:35.568+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:09:35.572+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:09:35.609+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.062 seconds
+[2024-10-15T01:10:05.837+0000] {processor.py:186} INFO - Started process (PID=155) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:10:05.838+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:10:05.840+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:10:05.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:10:05.862+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:10:05.858+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:10:05.863+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:10:05.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.060 seconds
+[2024-10-15T01:10:36.127+0000] {processor.py:186} INFO - Started process (PID=156) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:10:36.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:10:36.130+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:10:36.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:10:36.146+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:10:36.144+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:10:36.148+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:10:36.184+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.061 seconds
+[2024-10-15T01:11:06.407+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:11:06.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:11:06.410+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:11:06.409+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:11:06.422+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:11:06.418+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:11:06.423+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:11:06.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.055 seconds
+[2024-10-15T01:11:36.702+0000] {processor.py:186} INFO - Started process (PID=158) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:11:36.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:11:36.705+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:11:36.705+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:11:36.719+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:11:36.716+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:11:36.720+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:11:36.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.060 seconds
+[2024-10-15T01:12:06.966+0000] {processor.py:186} INFO - Started process (PID=159) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:12:06.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:12:06.969+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:12:06.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:12:06.985+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:12:06.982+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:12:06.987+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:12:07.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.061 seconds
+[2024-10-15T01:12:37.235+0000] {processor.py:186} INFO - Started process (PID=160) to work on /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:12:37.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-10-15T01:12:37.238+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:12:37.237+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:12:37.257+0000] {logging_mixin.py:190} INFO - [2024-10-15T01:12:37.254+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/welcome_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/welcome_dag.py", line 1, in <module>
+    from src.download import download_files_from_s3
+ModuleNotFoundError: No module named 'src'
+[2024-10-15T01:12:37.258+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-10-15T01:12:37.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.065 seconds
